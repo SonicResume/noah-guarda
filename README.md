@@ -57,11 +57,28 @@ For complete licensing information, see:
 
 For company and service information:
 
-[SonicResume Group — sonicresume.com](https://sonicresume.com?utm_source=chatgpt.com)
+[SonicResume Group — sonicresume.com](https://sonicresume.com)
 
 ---
+### NOAH Guardra upgrades completed
 
-**NOAH Guardra**
-**A SonicResume Group product**
-# noah-guarda
-# noah-guarda
+* NOAH Guardra branding
+* Dark neon login redesign
+* Larger NOAH logo
+* Two-column login/product layout
+* NOAH-branded sidebar
+* NOAH-branded Chat
+* NOAH-branded error screens
+* NOAH-branded storage messaging
+* SonicResume contact/order links
+* Frigate favicon removal
+* USB camera support/testing
+* JLab Go Cam integration
+* Docker camera access
+* Camera runtime-state fix
+* Administrator authentication setup
+* Dockerized `noah-guardra:local` build
+* HTTPS dashboard on port `8971`
+* Fresh Git repository
+* GitHub `main` branch deployment
+* Full project pushed to `SonicResume/noah-guarda`
