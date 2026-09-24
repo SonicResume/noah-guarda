@@ -1,0 +1,8 @@
+{
+  "name": "NOAH Guardra",
+  "short_name": "NOAH Guardra",
+  "start_url": "/BASE_PATH/",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

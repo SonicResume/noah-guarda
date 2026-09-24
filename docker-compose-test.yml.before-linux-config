@@ -1,0 +1,18 @@
+services:
+  frigate:
+    container_name: frigate-test
+    privileged: true
+    restart: unless-stopped
+    image: noah-guardra:local
+    shm_size: "256mb"
+    devices:
+      - /dev/video0:/dev/video0
+    volumes:
+      - ./config:/config
+      - ./media:/media/frigate
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "8971:8971"
+      - "8554:8554"
+      - "8555:8555/tcp"
+      - "8555:8555/udp"
