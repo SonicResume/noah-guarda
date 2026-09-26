@@ -58,16 +58,19 @@ function LoginPage() {
                   </p>
 
                   <h1 className="text-6xl font-black leading-[0.95] tracking-[-0.04em] xl:text-8xl">
-                    WATCH
+                    AI Video 
                     <br />
                     <span className="text-cyan-400 drop-shadow-[0_0_30px_rgba(34,211,238,.45)]">
-                      SMARTER.
+                     Security.
                     </span>
                   </h1>
 
                   <p className="mt-8 max-w-2xl text-xl leading-relaxed text-zinc-400">
-                    AI-powered camera monitoring, detection, recording and
-                    automation — built into one powerful surveillance system.
+                    Access your video from anywhere, across multiple locations
+		    * Video AI and data integrations help uncover theft, security risks, and operational issues
+	            * Installation, hardware, training, and unlimited users are included
+		    * Works with your existing cameras — no costly hardware overhaul required
+
                   </p>
 
                   {/* Status cards */}
@@ -95,7 +98,7 @@ function LoginPage() {
                         LOCAL
                       </div>
                       <div className="mt-1 text-xs uppercase tracking-wider text-zinc-500">
-                        Processing
+                        Cloud Processing
                       </div>
                     </div>
                   </div>
@@ -145,7 +148,7 @@ function LoginPage() {
 
                   <div className="mb-7">
                     <h3 className="text-lg font-bold">
-                      Administrator Sign In
+                      Sign In
                     </h3>
 
                     <p className="mt-1 text-sm text-zinc-500">

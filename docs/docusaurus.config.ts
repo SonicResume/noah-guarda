@@ -4,14 +4,14 @@ import type { Config, PluginConfig } from "@docusaurus/types";
 import type * as OpenApiPlugin from "docusaurus-plugin-openapi-docs";
 
 const config: Config = {
-  title: "Frigate",
+  title: "NOAH Guardra",
   tagline: "NVR With Realtime Object Detection for IP Cameras",
-  url: "https://docs.frigate.video",
+  url: "https://www.sonicresume.com/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/branding/favicon.ico",
-  organizationName: "blakeblackshear",
+  favicon: "img/branding/noah-logo.png",
+  organizationName: "sonicresume",
   projectName: "frigate",
   themes: [
     "@docusaurus/theme-mermaid",
@@ -32,23 +32,6 @@ const config: Config = {
     },
   },
   themeConfig: {
-    announcementBar: {
-      id: 'frigate_plus',
-      content: `
-        <span style="margin-right: 8px; display: inline-block; animation: pulse 2s infinite;">🚀</span>
-        Get more relevant and accurate detections with Frigate+ models.
-        <a style="margin-left: 12px; padding: 3px 10px; background: #94d2bd; color: #001219; text-decoration: none; border-radius: 4px; font-weight: 500; " target="_blank" rel="noopener noreferrer" href="https://frigate.video/plus/">Learn more</a>
-        <span style="margin-left: 8px; display: inline-block; animation: pulse 2s infinite;">✨</span>
-        <style>
-          @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50%       { transform: scale(1.1); }
-          }
-        </style>`,
-      backgroundColor: '#005f73',
-      textColor: '#e0fbfc',
-      isCloseable: false,
-    },
     docs: {
       sidebar: {
         hideable: true,
@@ -62,16 +45,9 @@ const config: Config = {
         primaryBrandColor: "#010101",
       },
       aiChatSettings: {
-        chatSubjectName: "Frigate",
-        botAvatarSrcUrl: "https://frigate.video/images/favicon.png",
+        chatSubjectName: "NOAH Guardra",
+        botAvatarSrcUrl: "/img/branding/noah-logo.png",
         getHelpCallToActions: [
-          {
-            name: "GitHub",
-            url: "https://github.com/blakeblackshear/frigate",
-            icon: {
-              builtIn: "FaGithub",
-            },
-          },
         ],
         quickQuestions: [
           "How to configure and setup camera settings?",
@@ -124,11 +100,11 @@ const config: Config = {
       },
     ],
     navbar: {
-      title: "Frigate",
+      title: "NOAH Guardra",
       logo: {
-        alt: "Frigate",
-        src: "img/branding/logo.svg",
-        srcDark: "img/branding/logo-dark.svg",
+        alt: "NOAH Guardra",
+        src: "img/branding/noah-logo.png",
+        srcDark: "img/branding/noah-logo.png",
       },
       items: [
         {
@@ -138,29 +114,10 @@ const config: Config = {
           position: "left",
         },
         {
-          href: "https://frigate.video",
-          label: "Website",
-          position: "right",
-        },
-        {
-          href: "http://demo.frigate.video",
-          label: "Demo",
-          position: "right",
-        },
-        {
           type: 'localeDropdown',
           position: 'right',
           dropdownItemsAfter: [
-            {
-              label: '简体中文（社区翻译）',
-              href: 'https://docs.frigate-cn.video',
-            }
           ]
-        },
-        {
-          href: 'https://github.com/blakeblackshear/frigate',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
@@ -170,18 +127,10 @@ const config: Config = {
         {
           title: "Community",
           items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/blakeblackshear/frigate",
-            },
-            {
-              label: "Discussions",
-              href: "https://github.com/blakeblackshear/frigate/discussions",
-            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Frigate, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} NOAH Guardra.`,
     },
   },
   plugins: [
@@ -215,9 +164,6 @@ const config: Config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/blakeblackshear/frigate/edit/master/docs/",
           sidebarCollapsible: false,
           docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
         },
